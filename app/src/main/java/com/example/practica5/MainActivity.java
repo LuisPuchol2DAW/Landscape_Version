@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
     }
 
     @Override
-    protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
+        protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
         int savedCounter = savedInstanceState.getInt("counter");
         restoreCurrentQuestion(savedCounter);
